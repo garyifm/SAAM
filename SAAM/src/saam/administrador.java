@@ -78,6 +78,11 @@ public class administrador extends javax.swing.JFrame {
         });
 
         jButton3.setText("Eliminar");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jLabel4.setText("Seleccionar acción:");
 
@@ -239,6 +244,22 @@ public class administrador extends javax.swing.JFrame {
             tempPass = jTextField2.getText();
         }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        if(jTextField3.getText() == doctor)
+        {
+            doctor = "n";
+        }
+        else if (jTextField3.getText() == temp)
+        {
+            temp = "n";
+        }
+        else
+        {
+            jTextField4.setText("No se puede eliminar porque, no existe ese usuario");
+        }
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
