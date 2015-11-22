@@ -5,6 +5,8 @@
  */
 package saam;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Gary
@@ -135,7 +137,7 @@ public class main extends javax.swing.JFrame {
                     break;
             }
             default:
-                jTextField1.setText("Error, escriba su información nuevamente");
+                JOptionPane.showMessageDialog(this, "Usuario y/o contraseña incorrecto");
                 break;
         }
     }//GEN-LAST:event_jButton1ActionPerformed
