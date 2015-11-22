@@ -124,13 +124,13 @@ public class main extends javax.swing.JFrame {
                 this.dispose();
                 break;
                 }
-            case "asistente":{
+            case "administrador":{
                 administrador newFrame = new administrador();
                 newFrame.setVisible(true);
                 this.dispose();
                 break;
                 }
-            case "admin":{
+            case "asistente":{
                     asist newFrame = new asist();
                     newFrame.setVisible(true);
                     this.dispose();
