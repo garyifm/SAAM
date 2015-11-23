@@ -243,12 +243,12 @@ public class administrador extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        if(jTextField1.getText() == doctor)
+        if(jTextField1.getText() == null ? doctor == null : jTextField1.getText().equals(doctor))
         {
             doctor = jTextField3.getText();
             pass = jTextField2.getText();
         }
-        if(jTextField1.getText() == temp)
+        if(jTextField1.getText() == null ? temp == null : jTextField1.getText().equals(temp))
         {
             temp = jTextField3.getText();
             tempPass = jTextField2.getText();
@@ -257,11 +257,11 @@ public class administrador extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        if(jTextField3.getText() == doctor)
+        if(jTextField3.getText().equals(doctor))
         {
             doctor = "n";
         }
-        else if (jTextField3.getText() == temp)
+        else if (jTextField3.getText().equals(temp))
         {
             temp = "n";
         }
