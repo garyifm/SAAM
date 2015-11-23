@@ -39,6 +39,7 @@ public class asist extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Menú asistente");
 
         jButton1.setText("Primer Ingreso");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
