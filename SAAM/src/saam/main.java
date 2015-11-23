@@ -37,6 +37,7 @@ public class main extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Iniciar sesión");
 
         jLabel1.setFont(new java.awt.Font("Agency FB", 0, 48)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/saam1.png"))); // NOI18N
