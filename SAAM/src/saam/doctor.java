@@ -5,6 +5,7 @@
  */
 package saam;
 
+import javax.swing.JOptionPane;
 import javax.swing.ListModel;
 
 /**
@@ -475,7 +476,7 @@ public class doctor extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField7ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Registro agregado satisfactoriamente");
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
